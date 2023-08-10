@@ -1,34 +1,6 @@
-.wave-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave-top svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 80px;
-}
-
-.wave-top .shape-fill {
-    fill: #f1f5f9;
-}
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-    .wave-top svg {
-        width: calc(100% + 1.3px);
-        height: 70px;
-    }
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .wave-top svg {
-        width: calc(100% + 1.3px);
-        height: 70px;
-    }
+.image {
+    mask: url(../assets/other-assets/blob-haikei.png) no-repeat center / cover;
+    background-image: url(../assets/other-assets/fotoperfilrectangular.jpg);
+    background-size: contain;
+    background-position: center;
 }

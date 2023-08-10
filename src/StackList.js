@@ -1,19 +1,28 @@
+import html from "./assets/icons/html-icon.png"
+import css from "./assets/icons/css-icon.png"
+import js from "./assets/icons/javascript-programming-language-icon.png"
+import react from "./assets/icons/react-js-icon.png"
+import git from "./assets/icons/git-icon.png"
+import bootstrap from "./assets/icons/bootstrap-5-logo-icon.png"
+import tailwind from "./assets/icons/tailwind-css-icon.png"
+import npm from "./assets/icons/npm-icon.png"
+
 const StackList = [
     {
         nombre: "Html",
-        img: "../public/assets/html-icon.png",
+        img: html,
     },
     {
         nombre: "Css",
-        img: "../public/assets/css-icon.png",
+        img: css,
     },
     {
         nombre: "Javascript",
-        img: "../public/assets/javascript-programming-language-icon.png"
+        img: js
     },
     {
         nombre: "React",
-        img: "../public/assets/react-js-icon.png",
+        img: react,
     },
     // {
     //     nombre: "Redux",
@@ -25,19 +34,19 @@ const StackList = [
     // },
     {
         nombre: "Git",
-        img: "../public/assets/git-icon.png",
+        img: git,
     },
     {
         nombre: "Bootstrap 5",
-        img: "../public/assets/bootstrap-5-logo-icon.png",
+        img: bootstrap,
     },
     {
         nombre: "Tailwind Css",
-        img: "../public/assets/tailwind-css-icon.png",
+        img: tailwind,
     },
     {
         nombre: "Npm",
-        img: "../public/assets/npm-icon.png",
+        img: npm,
     },
     // {
     //     nombre: "Node",

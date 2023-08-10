@@ -1,3 +1,6 @@
+import encriptador from "./assets/other-assets/encriptador.png"
+import todo from "./assets/other-assets/todo-list-app.png"
+
 const Projects = [
     {
         titulo: "encriptador",
@@ -5,7 +8,7 @@ const Projects = [
         descripcion: "Proyecto de encriptador creado como parte del curso Oracle Next Education, donde se utilizo Html, Css y Javascript para su realizacion",
         demo: "https://dazjencriptador.netlify.app/",
         repositorio: "https://github.com/DazJ14/Alura-Encriptador",
-        urlImagen: "../public/assets/encriptador.png"
+        urlImagen: encriptador
     },
     {
         titulo: "Todo List App",
@@ -13,7 +16,7 @@ const Projects = [
         descripcion: "Aplicacion de notas, donde se pueden agregar, borrar, terminar, asi como previsualizar y ver tareas completas. Realizado con react y sass.",
         demo: "#",
         repositorio: "#",
-        urlImagen: "../public/assets/todo-list-app.png"
+        urlImagen: todo
     },
     // {
     //     titulo: "Landing Page",

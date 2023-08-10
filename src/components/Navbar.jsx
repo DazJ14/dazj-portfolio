@@ -7,6 +7,8 @@ import {
   faSun,
   faMoon,
 } from "@fortawesome/free-solid-svg-icons";
+import spanish from "../assets/icons/spain.png";
+import english from "../assets/icons/estados-unidos.png";
 
 const Navbar = ({
   mobileMenuClick,
@@ -28,14 +30,11 @@ const Navbar = ({
         ))}
         <button onClick={changeLanguage}>
           <span className="flex">
-            idioma
+            Language
             {languageChange === "english" ? (
-              <img
-                src="../../public/assets/estados-unidos.png"
-                className="ml-1 h-6"
-              />
+              <img src={english} className="ml-1 h-6" />
             ) : (
-              <img src="../../public/assets/spain.png" className="ml-1 h-6" />
+              <img src={spanish} className="ml-1 h-6" />
             )}
           </span>
         </button>
@@ -44,7 +43,7 @@ const Navbar = ({
           className="border-r pr-3 border-gray-300 md:border-r-0 md:pr-0 md:border-l md:pl-3"
         >
           <span>
-            Tema
+            Theme
             <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
           </span>
         </button>
