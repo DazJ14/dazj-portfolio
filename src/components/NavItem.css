@@ -1,0 +1,19 @@
+.navitem a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+}
+
+html.dark .navitem a::after {
+    background-color: #fff;
+}
+
+.navitem:hover a::after {
+    width: 100%;
+    right: 0;
+}
