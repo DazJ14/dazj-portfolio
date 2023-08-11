@@ -29,12 +29,12 @@ const ProjectsList = ({ projects }) => {
             <p className="text-sm sm:text-sm pb-4 w-full h-full flex-grow dark:text-slate-400">
               {project.descripcion}
             </p>
-            <div>
+            <div className="flex items-center justify-center gap-4 flex-wrap">
               <a
                 href={project.repositorio}
                 target="_blank"
                 rel="noreferrer"
-                className="bg-white py-3 px-6 mx-4 my-4 shadow-md hover:rounded-3xl transition-all"
+                className="bg-white py-3 px-6 shadow-md hover:rounded-3xl transition-all"
               >
                 Github Repo
               </a>
@@ -42,7 +42,7 @@ const ProjectsList = ({ projects }) => {
                 href={project.demo}
                 target="_blank"
                 rel="noreferrer"
-                className="py-3 px-6 mx-4 shadow-md bg-sky-400 hover:bg-sky-300 transition-all hover:rounded-3xl"
+                className="py-3 px-6 shadow-md bg-sky-400 hover:bg-sky-300 transition-all hover:rounded-3xl"
               >
                 Live Demo
               </a>
