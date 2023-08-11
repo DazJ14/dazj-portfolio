@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.home {
-  height: 100vh;
-}
-
 .profile {
   background-image: url(assets/img-S6U7e367Bubl9gKvNlxFV.png);
   animation: morph 6s ease-in-out infinite;

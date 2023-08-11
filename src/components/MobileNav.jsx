@@ -3,8 +3,15 @@ import MobileNavItem from "./MobileNavItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 import "./MobileNav.css";
+import spanish from "../assets/icons/spain.png";
+import english from "../assets/icons/estados-unidos.png";
 
-const MobileNav = ({ mobileMenuClick, sections }) => {
+const MobileNav = ({
+  mobileMenuClick,
+  sections,
+  changeLanguage,
+  languageChange,
+}) => {
   return (
     <div
       id="mobile-nav-container"
@@ -16,7 +23,7 @@ const MobileNav = ({ mobileMenuClick, sections }) => {
       >
         <FontAwesomeIcon
           icon={faX}
-          className="w-8 h-8 p-2 rounded-full hover:bg-gray-300 cursor-pointer"
+          className="w-8 h-8 p-2 rounded-full dark:text-white dark:hover:bg-gray-700 hover:bg-gray-300 cursor-pointer"
         />
       </div>
       <ul className="grow grid place-content-center text-xl dark:text-white">
@@ -29,6 +36,18 @@ const MobileNav = ({ mobileMenuClick, sections }) => {
             {obj.name}
           </MobileNavItem>
         ))}
+        <li>
+          <button onClick={changeLanguage} className="block lg:hidden">
+            <span className="flex">
+              Language
+              {languageChange === "english" ? (
+                <img src={english} className="ml-1 h-6" />
+              ) : (
+                <img src={spanish} className="ml-1 h-6" />
+              )}
+            </span>
+          </button>
+        </li>
       </ul>
     </div>
   );

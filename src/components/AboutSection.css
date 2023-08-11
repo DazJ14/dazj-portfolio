@@ -1,6 +1,6 @@
 .image {
-    mask: url(../assets/other-assets/blob-haikei.png) no-repeat center / cover;
     background-image: url(../assets/other-assets/fotoperfilrectangular.jpg);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }

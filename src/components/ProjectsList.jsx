@@ -7,7 +7,7 @@ const ProjectsList = ({ projects }) => {
       {projects.map((project) => (
         <article
           key={project.titulo}
-          className="w-full h-[35rem] md:h-[35rem] md:w-4/5 lg:w-[47%] flex flex-col shadow-md hover:shadow-2xl overflow-hidden rounded-lg transition-all duration-200 p-4 bg-white dark:bg-slate-700"
+          className="w-full h-auto md:h-[35rem] md:w-4/5 lg:w-[47%] flex flex-col shadow-md hover:shadow-2xl overflow-hidden rounded-lg transition-all duration-200 p-4 bg-white dark:bg-slate-700"
         >
           <img
             src={project.urlImagen}

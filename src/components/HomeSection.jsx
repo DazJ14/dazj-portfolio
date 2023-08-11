@@ -10,7 +10,7 @@ const HomeSection = ({ list, languageSet, languageChange }) => {
   return (
     <section
       id="home"
-      className="home pt-[60px] bg-white dark:bg-slate-900 relative w-full flex place-items-center sm:py-0 transition-colors"
+      className="home h-screen pt-[60px] bg-white dark:bg-slate-900 relative w-full flex place-items-center sm:py-0 transition-colors"
     >
       <Container>
         <div className="flex justify-center align-middle mb-16 text-center lg:text-left flex-col-reverse lg:flex-row z-10">

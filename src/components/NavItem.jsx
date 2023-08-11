@@ -3,7 +3,7 @@ import "./NavItem.css";
 
 const NavItem = ({ children, link }) => {
   return (
-    <li className="navitem relative hidden md:block dark:after:bg-white">
+    <li className="navitem relative hidden lg:block dark:after:bg-white">
       <a href={link}>{children}</a>
     </li>
   );

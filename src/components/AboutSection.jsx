@@ -6,10 +6,10 @@ const AboutSection = ({ languageSet, languageChange }) => {
   return (
     <section id="about" className="bg-slate-400 w-full relative">
       <Container>
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col items-center lg:flex-row gap-12">
           <div className="w-full lg:w-1/2 h-80 relative ">
-            <div className="image w-full h-full object-cover rounded-xl" />
-            <span className="py-1 px-2 absolute bg-slate-300 -top-4 left-1/2 -translate-x-1/2 font-bold rounded-md border-8 border-white dark:border-slate-700 uppercase text-5xl w-2/3 text-center">
+            <div className="image w-full h-full rounded-lg" />
+            <span className="py-1 px-2 absolute bg-slate-300 -top-7 left-1/2 -translate-x-1/2 font-bold rounded-md border-8 border-white dark:border-slate-700 uppercase text-3xl md:text-5xl w-2/3 text-center">
               {languageSet[languageChange].about.about}
             </span>
           </div>

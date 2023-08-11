@@ -56,7 +56,12 @@ const App = () => {
         changeLanguage={changeLanguage}
         languageChange={languageChange}
       />
-      <MobileNav mobileMenuClick={mobileMenuClick} sections={sections} />
+      <MobileNav
+        mobileMenuClick={mobileMenuClick}
+        sections={sections}
+        changeLanguage={changeLanguage}
+        languageChange={languageChange}
+      />
       <Layout
         list={list}
         projects={projects}

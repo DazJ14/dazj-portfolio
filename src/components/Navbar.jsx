@@ -28,7 +28,7 @@ const Navbar = ({
             {obj.name}
           </NavItem>
         ))}
-        <button onClick={changeLanguage}>
+        <button onClick={changeLanguage} className="hidden lg:block">
           <span className="flex">
             Language
             {languageChange === "english" ? (
@@ -49,7 +49,7 @@ const Navbar = ({
         </button>
         <li
           id="mobile-menu"
-          className="md:hidden text-xl hover:rounded-full hover:bg-slate-100 box-border w-8 h-8 flex place-items-center justify-center z-10 dark:hover:bg-slate-600 cursor-pointer"
+          className="lg:hidden text-xl hover:rounded-full hover:bg-slate-100 box-border w-8 h-8 flex place-items-center justify-center z-10 dark:hover:bg-slate-600 cursor-pointer"
           onClick={mobileMenuClick}
         >
           <FontAwesomeIcon icon={faBars} />
