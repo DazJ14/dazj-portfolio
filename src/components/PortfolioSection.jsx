@@ -29,7 +29,7 @@ const PortfolioSection = ({ projects, languageSet, languageChange }) => {
         <p className="mb-8 dark:text-white text-center lg:text-left">
           {languageSet[languageChange].portfolio.description}
         </p>
-        <ProjectsList projects={projects} />
+        <ProjectsList projects={projects} languageChange={languageChange} />
       </Container>
     </section>
   );

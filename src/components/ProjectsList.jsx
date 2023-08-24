@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import ProjectItemTech from "./ProjectItemTech";
 
-const ProjectsList = ({ projects }) => {
+const ProjectsList = ({ projects, languageChange }) => {
   return (
     <div className="flex flex-col items-center lg:flex-row md:justify-between md:flex-wrap gap-y-8">
       {projects.map((project) => (
@@ -17,7 +17,7 @@ const ProjectsList = ({ projects }) => {
           <aside className="bg-transparent text-center py-4 w-full md:h-1/2 flex flex-col flex-grow justify-between">
             <div className="my-2">
               <h3 className="font-bold text-xl sm:text-2xl uppercase text-sky-500 mb-2">
-                {project.titulo}
+                {project[languageChange].titulo}
               </h3>
               <div className="mb-2">
                 <ProjectItemTech
@@ -27,7 +27,7 @@ const ProjectsList = ({ projects }) => {
               </div>
             </div>
             <p className="text-sm sm:text-sm pb-4 w-full h-full flex-grow dark:text-slate-400">
-              {project.descripcion}
+              {project[languageChange].descripcion}
             </p>
             <div className="flex items-center justify-center gap-4 flex-wrap">
               <a

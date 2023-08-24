@@ -1,31 +1,50 @@
 import encriptador from "./assets/other-assets/encriptador.png"
 import todo from "./assets/other-assets/todo-list-app.png"
+import landingPage from "./assets/other-assets/landingPage.png"
 
 const Projects = [
     {
-        titulo: "encriptador",
+        spanish: {
+            titulo: "encriptador",        
+            descripcion: "Proyecto de encriptador creado como parte del curso Oracle Next Education, donde se utilizo Html, Css y Javascript para su realizacion",
+        },
+        english: {
+            titulo: "Encryptor",
+            descripcion: "Encryption project created as part of the Oracle Next Education course, where Html, Css, and Javascript were used for its implementation."
+        },
         tecnologias: ["Html", "Css", "JavaScript"],
-        descripcion: "Proyecto de encriptador creado como parte del curso Oracle Next Education, donde se utilizo Html, Css y Javascript para su realizacion",
         demo: "https://dazjencriptador.netlify.app/",
         repositorio: "https://github.com/DazJ14/Alura-Encriptador",
         urlImagen: encriptador
     },
     {
-        titulo: "Todo List App",
-        tecnologias: ["React"],
-        descripcion: "Aplicacion de notas, donde se pueden agregar, borrar, terminar, asi como previsualizar y ver tareas completas. Realizado con react y sass.",
+        spanish: {
+            titulo: "Noteit (Todo list app)",
+            descripcion: "Aplicacion de notas, donde se pueden agregar, borrar, terminar, asi como previsualizar y ver tareas completas. Realizado con react y sass. (en un futuro recibira actualizacion)",
+        },
+        english: {
+            titulo: "Noteit (Todo list app)",
+            descripcion: "Todo application, where tasks can be added, deleted, marked as completed, as well as previewed and viewed in full page. Developed using React. (Will receive updates in the future)"
+        },
+        tecnologias: ["React", "Formik"],
         demo: "#",
         repositorio: "#",
         urlImagen: todo
     },
-    // {
-    //     titulo: "Landing Page",
-    //     tecnologias: ["React", "Sass"],
-    //     descripcion: "Prototipo de diseño de landing page de una empresa imaginaria, en la cual podemos observar distintas secciones y rutas. Hecho con React y Tailwind Css.",
-    //     demo: "#",
-    //     repositorio: "#",
-    //     urlImagen: "../public/todo-list-app.png"
-    // },
+    {
+        spanish: {
+            titulo: "Animalx Landing Page",        
+            descripcion: "Prototipo de diseño de landing page, en la cual podemos observar distintas secciones y rutas. La pagina principal con mayor diseño que las otras para solo mostrar el enrutamiento.",
+        },
+        english: {
+            titulo: "Animalx Landing Page",
+            descripcion: "Design prototype of a landing page, where we can observe different sections and routes. The main page has more design elements compared to the others, with the purpose of showcasing the navigation."
+        },
+        tecnologias: ["React", "Styled Components", "Router"],
+        demo: "https://dazj14.github.io/Animalx/",
+        repositorio: "https://github.com/DazJ14/Animalx",
+        urlImagen: landingPage
+    },
     // {
     //     titulo: "Conversor",
     //     tecnologias: ["Java", "JavaFX"],
