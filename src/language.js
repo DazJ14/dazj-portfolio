@@ -3,7 +3,7 @@ const language = {
         "home":{
             "title": "Mi nombre es Diego Zamora.",
             "descriptionblue": "Desarrollador de Front-End",
-            "description": "situado en Nuevo Leon, México.",
+            "description": "situado en Nuevo León, México.",
             "cvdownload": "Descargar CV"
         },
         "about": {
@@ -20,7 +20,7 @@ const language = {
         "home":{
             "title": "My name is Diego Zamora.",
             "descriptionblue": "Front-End developer",
-            "description": "based on Nuevo Leon, México.",
+            "description": "based on Nuevo León, México.",
             "cvdownload": "Download Resume"},
         "about": {
             "about": "About me",
