@@ -40,7 +40,7 @@ const Navbar = ({
         </button>
         <button
           onClick={openMenu}
-          className="border-r pr-3 border-gray-300 md:border-r-0 md:pr-0 md:border-l md:pl-3"
+          className="border-r pr-3 border-gray-300 lg:border-r-0 lg:pr-0 lg:border-l lg:pl-3"
         >
           <span>
             Theme
