@@ -27,8 +27,8 @@ const Projects = [
             descripcion: "Todo application, where tasks can be added, deleted, marked as completed, as well as previewed and viewed in full page. Developed using React. (Will receive updates in the future)"
         },
         tecnologias: ["React", "Formik"],
-        demo: "#",
-        repositorio: "#",
+        demo: "https://dazj14.github.io/noteit/",
+        repositorio: "https://github.com/DazJ14/noteit",
         urlImagen: todo
     },
     {
