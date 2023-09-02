@@ -9,7 +9,7 @@ const language = {
         "about": {
             "about": "Sobre mi",
             "title": "Descripcion",
-            "description": "Mi nombre es Diego Armando Zamora Jurado, actualmente residiendo en Nuevo León, México. Con una gran pasión por el desarrollo de software, me especializo en front-end, utilizando tecnologías como HTML5, CSS3, JavaScript, Sass, React. Constantemente me encuentro realizando proyectos personales además de aprender nuevas tecnologías. Actualmente me encuentro enfocado en aprender sobre desarrollo de back-end y algún que otro framework para front-end (como Tailwind CSS)."
+            "description": "Mi nombre es Diego Armando Zamora Jurado, actualmente residiendo en Nuevo León, México. Con una gran pasión por el desarrollo de software, me especializo en front-end, utilizando tecnologías como HTML5, CSS3, JavaScript y React. Constantemente me encuentro realizando proyectos personales además de aprender nuevas tecnologías. Actualmente me encuentro enfocado en aprender sobre desarrollo de back-end y algún que otro framework para front-end (como Tailwind CSS)."
         },
         "portfolio": {
             "title": "Portafolio",
